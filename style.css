@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat";
+    color: rgb(56, 56, 56);
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #6c6868,
+    0 0 20px rgba(94, 97, 93, 0.678),
+    0 0 30px rgb(156, 184, 156),
+    0 0 40px rgb(255, 255, 255),
+    0 0 55px rgb(200, 224, 200),
+    0 0 70px rgb(215, 224, 215);
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.wrapper .message {
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+}
+.wrapper .btn {
+    background: rgba(164, 12, 35, 0.881);
+    padding: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+.wrapper .btn:hover {background: rgb(245, 115, 115);}
+.wrapper .copyRights {margin-top: 50px;}
